@@ -1,20 +1,20 @@
 :root {
-    --primary: #a67b5b;          /* Warm beige-brown accent */
-    --secondary: #8c6a50;        /* Slightly darker beige */
-    --dark-bg: #2e2a27;          /* Dark warm neutral background */
-    --darker-bg: #1e1a17;        /* Deeper brown-black for sections */
-    --light-bg: #f5f5dc;         /* Soft beige background */
-    --lighter-bg: #ffffff;       /* Clean white */
-    --card-bg: #faf6f0;          /* Cream card background */
-    --card-bg-light: #ffffff;    /* White cards for light mode */
+    --primary: #a67b5b;          
+    --secondary: #8c6a50;     
+    --dark-bg: #2e2a27;         
+    --darker-bg: #1e1a17;    
+    --light-bg: #f5f5dc;         
+    --lighter-bg: #ffffff;      
+    --card-bg: #faf6f0;          
+    --card-bg-light: #ffffff;   
 
-    --text-color: #a38484;       /* Light text for dark backgrounds */
-    --text-color-light: #2b2b2b; /* Dark text for beige backgrounds */
-    --text-muted: #d6d2c4;       /* Muted beige-gray for dark mode */
-    --text-muted-light: #5a4635; /* Muted earthy brown for light mode */
+    --text-color: #a38484;    
+    --text-color-light: #2b2b2b; 
+    --text-muted: #d6d2c4;      
+    --text-muted-light: #5a4635; 
 
-    --border-color: #4a3f36;     /* Warm brown borders in dark mode */
-    --border-color-light: #d8d2c4; /* Subtle beige-gray borders in light mode */
+    --border-color: #4a3f36;   
+    --border-color-light: #d8d2c4; 
 
     --gradient: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
     --gradient-reverse: linear-gradient(135deg, var(--secondary) 0%, var(--primary) 100%);
@@ -804,4 +804,5 @@
             .section-title::after {
                 width: 50px;
             }
+
         }
